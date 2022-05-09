@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./marriage.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <script src="./button.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+  html{
+      scroll-behavior:smooth;
+  }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Raleway", sans-serif
+        }
+        p {line-height: 2}
+        body {
+            font-family: "Lato", sans-serif
+        }
+       
+    </style>
+</head>
+<body>
+<div class="container-fluid col-12">
+    <div class="row">
+
+    <!-- header_section -->
+    <div class="col-12 img" id="section2">
+
+
+        <div class=" tex">
+
+    <h1 id="op">Austin & Jane</h1>
+    <h2>Are getting married</h2>
+    <h2><b>17.07.2017</b></h2>
+</div>
+    </div>
+
+<!-- navigation_bar --> 
+<div class="jk navba d-flex flex-column justify-content-end" style="opacity:0.8;width:100%;padding:8px 16px;height:100%;z-index:inherit;">
+
+
+
+<div class="d-flex  justify-content-around text-center " style="background-color:skyblue;color:white;">
+<a href="#section2"  class="btn btn1">Home</a>
+<a href="#section3"  class="btn btn1">Austin & Jane</a>
+<a href="#section1"  class="btn btn1">Wedding</a>
+<a href="#rsvp" class="btn btn1">RSVP</a>
+</div>
+
+</div>
+
+<!-- marriage_info -->
+<div class="col-12 " style="padding-top: 70px;background-color:pink ;" id="section3"> 
+<div class="mb-5" style="margin-left:auto;margin-right:auto;">
+     <h1 class="text-center text-grey"><b>Austin & Jane</b></h1>
+  
+  <div class="img2"></div>
+     <p class="jk1 text-center px-3"><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</i>
+      </p>
+      <br>
+      <p class="col-12 d-flex justify-content-center hj"><a href="#section1"  class="btn btn1 bg-black text-white w-50">Wedding Details</a></p>
+
+    </div>
+
+</div>
+<!-- next section -->
+<div><div class="bgimg2" style="">
+    <div class="tex text-center" style="color:black">
+      <h1 id="op">You Are Invited</h1><br>
+      <h2>Of course..</h2>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- the_wedding_section -->
+<div class="col-12 pt-5" style="background-color:pink ;" id="section1">
+
+<div class="row">
+
+<div class="col-12" >
+    <h1 class="text-center text-grey"><b>The Wedding</b></h1>
+</div>
+
+
+<div class="img4"></div>
+
+
+
+    <div class="col-sm-12 col-md-6 col-lg-6 py-4 text-center">
+        <h2>When</h2>
+        <p>Wedding Ceremony - 2:00pm</p>
+        <p>Reception & Dinner - 5:00pm</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 py-4 text-center">
+        <h2>Where</h2>
+        <p>Some place, an address</p>
+        <p>Some where, some address</p>
+      </div>
+
+
+</div>
+</div>
+
+
+<!-- RSVP section -->
+<div class="col-12  text-center px-4" id="rsvp" style="padding-top: 64px;padding-bottom: 64px;letter-spacing:4px;   background-color:rgba(255, 192, 203, 0.856) ;">
+    <h1>HOPE YOU CAN MAKE IT!</h1>
+    <p style="font-size:18px;">Kindly Respond By January, 2017</p>
+    <p style="font-size:24px">
+      <button onclick="document.getElementById('id01').style.display='block'" class="btn bg-danger opacity-75 text-center" style="padding:9px 60px">RSVP</button>
+    </p>
+  </div>
+
+  <!-- modal section -->
+  <div id="id01" class="modalss ">
+    <div class="modal-contentss card-4 animate-zoom" style="padding:32px;max-width:600px">
+      <div class="col-12 container  text-center">
+        <h1 style="letter-spacing: 4px;">CAN YOU COME?</h1>
+        <p>We really hope you can make it.</p>
+        <form>
+          <input class="w-100 " type="text" placeholder="Name(s)" name="name" style="padding: 8px;">
+        </form>
+        <p><i>Sincerely, John & Jane</i></p>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 mb-2">
+            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="btn text-white d-block bg-success w-100">Going</button>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="btn text-white d-block bg-danger w-100">Can't come</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- footer -->
+  <footer class="text-center bg-black" style="padding-top:16px;margin-bottom:64px;">
+   
+    <i class="fa fa-facebook-official jkl"></i>
+    <i class="fa fa-instagram jkl"></i>
+    <i class="fa fa-snapchat jkl"></i>
+    <i class="fa fa-pinterest-p jkl"></i>
+    <i class="fa fa-twitter jkl"></i>
+    <i class="fa fa-linkedin jkl"></i>
+   
+   
+   
+   
+    <p style="color: whitesmoke;">Powered by <a href="https://www.MIRsquared.com/MIRsquared/default.asp" title="" target="_blank" class="">MIRsquared(MESSI II)</a></p>
+  </footer>
+  <!-- <div class="w3-hide-small" style="margin-bottom:32px"> </div> -->
+
+
+
+
+    </div>
+</div>
+
+
+</body>
+</html>
